@@ -135,4 +135,12 @@
         git branch -d branchname
 
 
+23)==============To push=================
+
+i> git push -f : push froce
+ii> git push -u origin [branch] : to push branch
+iii> git push --all : Push all branches
+iv> git push --tags: Publish tags that aren't yet in the remote repositorygi
+
+
 
