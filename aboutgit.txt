@@ -1,0 +1,138 @@
+
+
+1) first of all we should have to create git user.name and user.email as command given below
+    command:
+        i> git config --global user.name "your name"
+        ii> git config --global user.email "your_email@example.com"
+
+
+2) To git initializate
+    command: 
+        git init
+
+
+3) To see status
+    command:
+        git status
+
+
+4) short status to know the condition of file
+    command: 
+        git status -s
+
+
+
+5)to create file 
+    command:
+        touch filename
+
+
+6) to send file on state stage
+    command:
+        git add filename
+        git add my-file1.js my-file2.js
+
+
+
+7) to send all file on state stage at a time 
+    command:
+        git add -A or --all
+
+
+8)git commit sending to state stage to unmodified stage
+    command:
+        git commit -m 'added my-file1.js & my-file2.js'
+
+
+9)Directly commit and skipped stage area from untrack area
+    command:
+        git commit -a -m "please insert comment here"
+
+
+10) To see the git difference on change in file
+    command: 
+        git diff
+        git diff filename
+        git diff --stated  <---- diff at stated state
+        
+
+11) To remove or delete file
+    command:
+        git rm filename
+
+12) To remove file just only from git repository
+    command:
+        git rm file2.txt --cached
+
+
+
+13) if mistakely done on file and want to recove again 
+    command: 
+        git checkout filename
+        git checkout -f
+
+
+
+14) To see all the comments list with detalis 
+    command:
+        git log
+
+
+15) To see tow or specific number of  the comments list with detalis 
+    command:
+        git log -p -2
+
+
+16) create gitignore
+    command: 
+        touch .gitignore
+
+
+17) To create git Branch 
+    command: 
+        git branch branchname
+
+
+18) To check currently working branch 
+    command:
+        git branch
+
+
+
+
+
+18) To go on git anothe branch
+    command: 
+        git checkout branchname
+
+
+19) To See all the name of branch 
+    command:
+        git branch
+
+    output:
+        footer
+        header
+        * master
+        navbar
+        sidebar
+
+
+
+20)To create branch and want to go on that branch Directly
+    command:
+        git checkout -b branchname
+
+
+21) To delete branch
+    command:
+        git branch -D branchname
+
+
+
+22) To delete branch after merge
+    command:
+        git branch -d branchname
+
+
+
